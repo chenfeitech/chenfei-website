@@ -87,11 +87,6 @@
       <div class="col-md-6">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
-        {{ end }}
-        {{ end }}
       </div>
     </div>
   </div>
@@ -105,6 +100,7 @@
 {{if .Site.Data.features}}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h2 class="section-title">{{ .Params.mainService.title | markdownify }}</h2>
     <div class="row justify-content-center">
       {{ range .Site.Data.features }}
       <div class="col-12 col-md-6 col-lg-4 mb-2">

@@ -5,9 +5,8 @@ title = "深圳市辰霏软件技术有限公司"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
-footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_menu_left = "公司介绍"
+footer_menu_middle = "产品服务"
+footer_menu_right = "服务支持"
 # copyright
-copyright = "Copyright © 2010-2021 深圳市辰霏软件技术有限公司"
+copyright = "Copyright © 2021 深圳市辰霏软件技术有限公司"

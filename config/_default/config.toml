@@ -2,10 +2,12 @@
 baseURL = "http://www.chenfeitech.com/"
 title = "深圳市辰霏软件技术有限公司"
 theme = "bigspring-light"
+
 # post pagination
 paginate = "3"
 # post excerpt
 summaryLength = "15"
+
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # google analytics

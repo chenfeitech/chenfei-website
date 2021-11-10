@@ -1,12 +1,16 @@
 #################### default parameters ################################
 logo = "imgs/cflogo.png"
 logo_width = "200px"
+
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
+description = "深圳市辰霏软件技术有限公司"
 author = "helight"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "imgs/cflogo.png" # this image will be used as fallback if a page has no image of its own
+
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
+qrcode = "imgs/qrcode.jpg"
+qrcode_width = "150px"
 
 # Type of pages to be rendered with a blog view
 blogCategoryType = "category"
