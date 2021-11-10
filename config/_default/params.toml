@@ -1,9 +1,9 @@
 #################### default parameters ################################
-logo = "images/logo.png"
+logo = "imgs/cflogo.png"
 logo_width = "200px"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
+author = "helight"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -27,7 +27,7 @@ link = "contact"
 enable = false
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+button = "接受"
   
 ############################# social site ########################
 [[social]]

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
-title = "Bigspring Light"
+baseURL = "http://www.chenfeitech.com/"
+title = "深圳市辰霏软件技术有限公司"
 theme = "bigspring-light"
 # post pagination
 paginate = "3"

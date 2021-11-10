@@ -27,7 +27,9 @@ $icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';
 @import 'common';
 
 @import 'templates/navigation.scss';
-@import 'templates/call.scss';
 @import 'templates/main.scss';
+@import 'templates/call';
+@import 'templates/strip';
+@import 'templates/feature';
 
 @import 'custom';
