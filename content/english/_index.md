@@ -1,14 +1,17 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Let us solve your critical website <br> development challenges"
+  title : "Let us solve your website development challenges"
   image : "images/banner-art.svg"
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
   button:
     enable : true
     label : "Contact Us"
     link : "contact"
-
+  contact:
+    phone: 123456
+    email: 123@chenfeitech.com
+    
 ##################### Feature ##########################
 feature:
   enable : true

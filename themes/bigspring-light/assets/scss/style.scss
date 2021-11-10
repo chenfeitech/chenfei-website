@@ -1,4 +1,11 @@
 // Color Variables
+$primary: #f24088;
+$secondary: #f88379;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #f6f7ff;
+$steel: #5C5A5A;
+
 {{ with site.Params.variables }}
 $primary-color: {{.primary_color | default "#0AA8A7"}};
 $text-color: {{.text_color | default "#777"}};
@@ -15,15 +22,12 @@ $icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';
 {{ end }}
 
 @import 'mixins';
-
 @import 'typography';
-
 @import 'buttons';
-
 @import 'common';
 
 @import 'templates/navigation.scss';
-
+@import 'templates/call.scss';
 @import 'templates/main.scss';
 
 @import 'custom';

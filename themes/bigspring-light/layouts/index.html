@@ -3,21 +3,20 @@
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="banner">
+<div class="intro">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         <h1 class="mb-3">{{ .title | markdownify }}</h1>
         <p class="mb-4">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a></div>
-        {{ end }}
-        {{ end }}
-
+        {{ partial "call.html" .  }}
+      </div>
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}}
       </div>
     </div>
   </div>
+</div>
 </section>
 {{ end }}
 <!-- /banner -->
