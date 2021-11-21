@@ -6,13 +6,15 @@ weight = 1
 
 [[main]]
 name = "公司博客"
-url = "blog"
+url = "#"
 weight = 2
+# url = "blog"
 
 [[main]]
 name = "产品定价"
-url = "pricing"
+url = "#"
 weight = 3
+# url = "pricing"
 
 [[main]]
 name = "联系我们"
@@ -21,8 +23,9 @@ weight = 4
 
 [[main]]
 name = "FAQ"
-url = "faq"
+url = "#"
 weight = 5
+# url = "faq"
 
 # footer menu left
 [[footer_left]]
@@ -37,7 +40,8 @@ url = "#"
 # footer menu middle
 [[footer_middle]]
 name = "产品定价"
-url = "pricing"
+url = "#"
+# url = "pricing"
 
 [[footer_middle]]
 name = "软件产品"
@@ -49,13 +53,16 @@ url = "#"
 
 # footer menu right
 [[footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
+name = "隐私政策"
+url = "#"
+# url = "privacy-policy"
 
 [[footer_right]]
 name = "服务条款"
-url = "terms-conditions"
+url = "#"
+# url = "terms-conditions"
 
 [[footer_right]]
 name = "FAQ"
-url = "faq"
+url = "#"
+# url = "faq"
