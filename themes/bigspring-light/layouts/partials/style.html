@@ -20,7 +20,7 @@
 <!-- plugins + stylesheet -->
 {{ $styles := slice }}
 {{ range site.Params.plugins.css }}
-{{ if findRE "^http" .link }}
+{{ if findRE "^js" .link }}
 <link media="all" rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}} >
 {{ else }}
 {{ $styles = $styles | append (resources.Get .link) }}

@@ -32,14 +32,14 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-# link = "js/font-awesome/fontawesome.min.css"
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+link = "js/font-awesome/fontawesome.min.css"
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
 [[params.plugins.css]]
-# link = "js/font-awesome/brands.min.css"
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+link = "js/font-awesome/brands.min.css"
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
 [[params.plugins.css]]
-# link = "js/font-awesome/solid.min.css"
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+link = "js/font-awesome/solid.min.css"
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
 
 
 # JS Plugins
