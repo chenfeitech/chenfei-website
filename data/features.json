@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "技术咨询",
+    "description": "大数据平台架构设计，云原生技术应用落地，内部OA软件架构等",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "软件定制",
+    "description": "内部办公系统，小程序，H5，数据平台功能，一般网页程序等",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "企业培训",
+    "description": "大数据系统，云原生架构（k8s，微服务，DevOps），敏捷开发等",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
