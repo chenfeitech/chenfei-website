@@ -3,14 +3,14 @@
 banner:
   title : "技术驱动发展"
   image : "images/banner-art.svg"
-  content : "<p>我们认为未来企业将100%是互联网+企业。<br>互联网彻底的改变了我们的生产方式、管理方式和销售方式。<br>我们不仅仅为客户提供技术开发服务，还深入洞察行业需求、发现行业的成本和效率短板，结合行业特点为客户提供整体解决方案。<br>我们一直把智造高质量代码作为我们的使命，并深信优质高效的代码正在深刻的改变我们的世界、让这个世界更美好。<br></p>"
+  content : "<p>我们认为未来企业将100%是互联网+企业。<br>互联网彻底的改变了我们的生产方式、管理方式和销售方式。<br>我们不仅仅为客户提供技术开发服务，还深入洞察行业需求、发现行业的成本和效率短板，结合行业特点为客户提供整体解决方案。<br>我们一直把开发高质量的技术产品作为我们的使命，并深信优质高效的技术产品正在深刻的改变我们的世界、让这个世界更美好。<br></p>"
 
   button:
     enable : true
     label : "Contact Us"
     link : "contact"
   contact:
-    email: admin@chenfeitech.com
+    email: dingxuelin@chenfeitech.com
     
 ##################### Feature ##########################
 feature:
@@ -20,7 +20,7 @@ feature:
     # feature item loop
     - name : "网站开发"
       icon : "fas fa-code"
-      content : "提供互动网站开发服务，企业站点，站点hugo模版开发等"
+      content : "提供互动网站开发服务，企业站点，站点hugo模版开发等。"
       
     # feature item loop
     - name : "管理系统"
@@ -30,22 +30,22 @@ feature:
     # feature item loop
     - name : "前端交互"
       icon : "fas fa-user-clock"
-      content : "基于h5及各种先进的js框架为用户提供从pc端到移动端的各种前端交互开发"
+      content : "基于h5及各种先进的js框架为用户提供从pc端到移动端的各种前端交互开发。"
       
     # feature item loop
     - name : "小程序开发"
       icon : "fas fa-heart"
-      content : "可以定制开发各种小程序，预约系统，大卡系统，信息管理等系统"
+      content : "可以定制开发各种小程序，预约系统，打卡系统，答题系统，信息管理等系统。"
       
     # feature item loop
     - name : "技术支持"
       icon : "fas fa-tachometer-alt"
-      content : "对企业目前进行系统分析，寻找合理架构设计，进行优化，提升稳定性和效率。"
+      content : "对现有系统分析，根据场景需要制定合理架构设计，进行优化，提升稳定性和效率。"
       
     # feature item loop
     - name : "技术培训"
       icon : "fas fa-cloud"
-      content : "企业大数据架构，云原生微服务架构建设指导和培训"
+      content : "企业大数据架构，云原生微服务架构建设指导和培训。"
       
 ######################### Main Service #####################
 mainService:

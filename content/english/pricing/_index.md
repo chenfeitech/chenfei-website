@@ -1,14 +1,14 @@
 ---
-title: "Pricing"
+title: "相关产品"
 subtitle: ""
 # meta description
 description: "This is meta description"
 draft: false
 
 basic:
-  name : "Basic Plan"
-  price: "$49"
-  price_per : "month"
+  name : "网站建设"
+  price: "灵活"
+  price_per : "高效"
   info : "Best For Small Individuals"
   services:
   - "Express Service"
@@ -20,9 +20,9 @@ basic:
     link : "#"
     
 professional:
-  name : "Professional Plan"
-  price: "$49"
-  price_per : "month"
+  name : "小程序系统"
+  price: "微信"
+  price_per : "生态"
   info : "Best For Professionals"
   services:
   - "Express Service"
@@ -36,9 +36,9 @@ professional:
     link : "#"
     
 business:
-  name : "Business Plan"
-  price: "$49"
-  price_per : "month"
+  name : "技术支持"
+  price: "技术"
+  price_per : "先进"
   info : "Best For Large Individuals"
   services:
   - "Express Service"
@@ -51,9 +51,9 @@ business:
 
 call_to_action:
   enable : true
-  title : "Need a larger plan?"
+  title : "联系我们?"
   image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content : "赶紧联系我们。让我们提供专业的技术产品服务。"
   button:
     enable : true
     label : "Contact Us"
