@@ -16,7 +16,7 @@ basic:
   - "Time-Critical Services"
   button:
     enable : true
-    label : "Get started for free"
+    label : "联系我们"
     link : "#"
     
 professional:
@@ -32,7 +32,7 @@ professional:
   - "Best Dashboard"
   button:
     enable : true
-    label : "Get started for free"
+    label : "联系我们"
     link : "#"
     
 business:
@@ -46,7 +46,7 @@ business:
   - "Time-Critical Services"
   button:
     enable : true
-    label : "Get started for free"
+    label : "联系我们"
     link : "#"
 
 call_to_action:
