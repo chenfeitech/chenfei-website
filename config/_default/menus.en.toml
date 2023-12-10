@@ -4,12 +4,10 @@ name = "首页"
 url = "/"
 weight = 1
 
-
 [[main]]
-name = "相关产品"
-url = "pricing"
-weight = 3
-# url = "pricing"
+name = "技术和产品"
+url = "blog"
+weight = 2
 
 [[main]]
 name = "联系我们"
