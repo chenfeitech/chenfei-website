@@ -3,7 +3,7 @@ baseURL = "http://www.chenfeitech.com/"
 title = "深圳市辰霏软件技术有限公司"
 theme = "bigspring-light"
  # copyright
-copyright = "Copyright © 2021 深圳市辰霏软件技术有限公司 all rights reserved.【 <a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021156154号-1</a> 】"
+copyright = "Copyright © 2024 深圳市辰霏软件技术有限公司 all rights reserved.【 <a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021156154号-1</a> 】"
 
 # post pagination
 paginate = "3"
