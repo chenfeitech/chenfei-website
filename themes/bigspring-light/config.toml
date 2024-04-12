@@ -32,14 +32,11 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-link = "js/font-awesome/fontawesome.min.css"
-# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+link = "plugins/font-awesome/fontawesome.min.css"
 [[params.plugins.css]]
-link = "js/font-awesome/brands.min.css"
-# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+link = "plugins/font-awesome/brands.min.css"
 [[params.plugins.css]]
-link = "js/font-awesome/solid.min.css"
-# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+link = "plugins/font-awesome/solid.min.css"
 
 
 # JS Plugins
@@ -49,6 +46,6 @@ link = "plugins/jQuery/jquery.slim.min.js"
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-# [[params.plugins.js]]
-# link = "js/font-awesome/all.min.js"
+[[params.plugins.js]]
+link = "plugins/font-awesome/all.min.js"
 # attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"

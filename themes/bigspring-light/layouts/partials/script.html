@@ -18,7 +18,7 @@
 <!-- JS Plugins + Main script -->
 {{ $scripts := slice }}
 {{ range site.Params.plugins.js}}
-{{ if findRE "^http" .link }}
+{{ if findRE "^plugins" .link }}
 <script crossorigin="anonymous" defer="defer" src="{{ .link | relURL }}" type="application/javascript" {{.attributes | safeHTMLAttr}}></script>
 {{ else }}
 {{ $scripts = $scripts | append (resources.Get .link) }}
@@ -26,7 +26,9 @@
 {{ end }}
 {{ $scripts := $scripts | append (resources.Get "js/script.js" | minify) }}
 {{ $scripts := $scripts | resources.Concat "/js/script.js" | minify | fingerprint "sha512" }}
-<script crossorigin="anonymous" defer="defer" integrity="{{ $scripts.Data.Integrity }}" type="application/javascript">{{$scripts.Content | safeJS}}</script>
+<script crossorigin="anonymous" defer="defer" integrity="{{ $scripts.Data.Integrity }}" type="application/javascript">
+{{$scripts.Content | safeJS}}
+</script>
 
 <!-- cookie -->
 {{ with site.Params.cookies }}
