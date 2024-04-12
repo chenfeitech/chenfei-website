@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://www.chenfeitech.com/"
+baseURL = "https://www.chenfeitech.com/"
 title = "深圳市辰霏软件技术有限公司"
 theme = "bigspring-light"
  # copyright
