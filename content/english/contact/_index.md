@@ -12,4 +12,4 @@ draft: false
 
 * **Company: 深圳市辰霏软件技术有限公司** 
 * **Mail: dingxuelin@chenfeitech.com**
-* **Address: http://www.chenfeitech.com**
+* **Site: http://www.chenfeitech.com**
