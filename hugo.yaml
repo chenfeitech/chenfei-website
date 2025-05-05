@@ -1,0 +1,102 @@
+######################## default configuration ####################
+baseURL: "https://www.chenfeitech.com/"
+title: "深圳市辰霏软件技术有限公司"
+theme: "bigspring-light"
+ # copyright
+copyright: "Copyright © 2024 深圳市辰霏软件技术有限公司 all rights reserved.【 <a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021156154号-1</a> 】"
+
+# post excerpt
+summaryLength: "15"
+
+# post pagination
+# Define the number of posts per page
+pagination:
+  disableAliases: false
+  pagerSize: 15
+  path: page
+
+Permalinks:
+    # blog = "/blog/:year/:month/:day/:filename/"
+    blog: "/blog/:year/:filename/"
+# unsafe html
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+defaultContentLanguage: zh-cn
+languages:
+  zh-cn:
+    languageName: 简体中文
+    languageCode: zh-CN
+    contentDir: "content" # content/english
+    weight: 1
+    title: 深圳市辰霏软件技术有限公司
+        
+# main menu
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: "/"
+      weight: 1
+    - identifier: showcases
+      name: "技术和产品"
+      url: "/showcases"
+      weight: 2
+    - identifier: blog
+      name: "博客"
+      url: "/blog"
+      weight: 3
+    - identifier: contact
+      name: "联系我们"
+      url: "contact"
+      weight: 4
+    - identifier: docs
+      name: "文档"
+      url: "docs"
+      weight: 5
+
+#################### default parameters ################################
+params:
+  logo: "imgs/cflogo.png"
+  logo_width: "200px"
+
+  # OpenGraph / Twitter Card metadata
+  description: "深圳市辰霏软件技术有限公司"
+  author: "helight"
+  image: "imgs/cflogo.png" # this image will be used as fallback if a page has no image of its own
+
+  # contact form action
+  contact_form_action: "#" # contact form works with https://formspree.io
+  qrcode: "imgs/qrcode.jpg"
+  qrcode_width: "150px"
+
+  # Type of pages to be rendered with a blog view
+  blogCategoryType: "category"
+
+  # Preloader
+  preloader:
+    enable: false
+    preloader: "" # use jpg, png, svg or gif format.
+
+  # Navigation buttons
+  navigation_button:
+    enable: true
+    label: "Get Started"
+    link: "contact"
+
+  # cookies
+  cookies:
+    enable: false
+    expire_days: 2
+    content: "This site uses cookies. By continuing to use this website, you agree to their use."
+    button: "接受"
