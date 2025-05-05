@@ -12,27 +12,9 @@ draft: false
 
 我们为各种操作系统（包括 Windows、macOS 和 Linux）提供具有桌面/应用程序/网络集成的全周期软件开发服务。 我们的开发团队在您开发过程的每个阶段都提供量身定制的支持，帮助您按时、按预算、在范围内交付端到端的定制软件项目。
 
-{{< showcases "网站建设" >}}
-提供互动网站开发服务，企业站点，站点hugo模版开发等。
-{{</ showcases >}}
-
-{{< showcases "小程序系统" >}}
-可以定制开发各种小程序，预约系统，打卡系统，答题系统，信息管理等系统。
-{{</ showcases >}}
-
-{{< showcases "技术支持" >}}
-对现有系统分析，根据场景需要制定合理架构设计，进行优化，提升稳定性和效率。
-{{</ showcases >}}
-
-{{< showcases "技术培训" >}}
-企业大数据架构，云原生微服务架构建设指导和培训。
-{{</ showcases >}}
-
 <div class="container text-center">
-<h1 class="display-3">其他项目</h1>
+<h1 class="display-3">技术产品项目</h1>
 </div>
-
-
 {{< cards >}}
   {{< card link="/blog/2024/dati/"
         title="一个微信小程序的答题系统，作为一个答题竞赛使用"
@@ -52,3 +34,22 @@ draft: false
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 {{< /cards >}}
+
+<div class="container text-center">
+<h1 class="display-3">其他项目</h1>
+</div>
+{{< showcases "网站建设" >}}
+提供互动网站开发服务，企业站点，站点hugo模版开发等。
+{{</ showcases >}}
+
+{{< showcases "小程序系统" >}}
+可以定制开发各种小程序，预约系统，打卡系统，答题系统，信息管理等系统。
+{{</ showcases >}}
+
+{{< showcases "技术支持" >}}
+对现有系统分析，根据场景需要制定合理架构设计，进行优化，提升稳定性和效率。
+{{</ showcases >}}
+
+{{< showcases "技术培训" >}}
+企业大数据架构，云原生微服务架构建设指导和培训。
+{{</ showcases >}}

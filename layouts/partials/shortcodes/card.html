@@ -18,7 +18,8 @@
 {{- $external := strings.HasPrefix $link "http" -}}
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
-
+<div class="col-md-6 mb-4">
+<div class="p-5 shadow rounded-lg">
 <a
   class=""
   {{- if $link -}}
@@ -63,4 +64,6 @@
     -}}
   {{- end -}}
 </a>
+</div>
+</div>
 {{- /* Strip trailing newline. */ -}}
