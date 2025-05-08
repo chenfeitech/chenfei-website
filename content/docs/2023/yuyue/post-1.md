@@ -1,14 +1,6 @@
 ---
 title: "预约系统"
-date: 2023-12-09T10:07:21+06:00
-# post image
-image: "/blog/post1/imgs/2.png"
-# post type (regular/featured)
-type: "regular"
-# meta description
-description: "This is meta description"
-# post draft
-draft: false
+weight: 1
 ---
 
 

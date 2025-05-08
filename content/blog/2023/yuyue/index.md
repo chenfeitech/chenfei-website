@@ -2,7 +2,7 @@
 title: "预约系统"
 date: 2023-12-09T10:07:21+06:00
 # post image
-image: "/blog/2023/yuyue/imgs/2.png"
+banner: "/blog/2023/yuyue/imgs/2.png"
 # post type (regular/featured)
 type: "regular"
 # meta description

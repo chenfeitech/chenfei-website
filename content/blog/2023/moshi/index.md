@@ -1,8 +1,8 @@
 ---
 title: "【看图学技术】- 微服务设计模式"
-date: 2022-12-10T10:07:21+06:00
+date: 2023-12-10T10:07:21+06:00
 # post image
-image: "/blog/2023/moshi/imgs/640.png"
+banner: "/blog/2023/moshi/imgs/640.png"
 # post type (regular/featured)
 type: "regular"
 # meta description

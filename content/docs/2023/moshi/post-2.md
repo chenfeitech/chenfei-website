@@ -1,14 +1,6 @@
 ---
 title: "【看图学技术】- 微服务设计模式"
-date: 2022-12-10T10:07:21+06:00
-# post image
-image: "/blog/post2/imgs/640.png"
-# post type (regular/featured)
-type: "regular"
-# meta description
-description: "This is meta description"
-# post draft
-draft: false
+weight: 2
 ---
 
 #### 前话

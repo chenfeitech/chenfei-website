@@ -1,0 +1,29 @@
+{{- $image := .image -}}
+{{- $title := .title -}}
+{{- $description := .description -}}
+
+<div class="col-12 col-md-6 col-lg-4 mb-2">
+    <div class="feature">
+      {{ if .image }}
+      <div class="feature-image"><img width="100" height="100" alt="{{ .title }} logo" src="{{ .image | relURL }}" /></div>
+      {{ end }}
+      <h2 class="feature-title">{{ .title }}</h2>
+      <div class="feature-content">
+        <p>{{ .description }}</p>
+      </div>
+    </div>
+  </div>
+
+
+{{- $title := .title -}}
+{{- $content := .content -}}
+
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h2 class="section-title">{{ $title | markdownify }}</h2>
+    <div class="row justify-content-center">
+      {{- $content -}}
+    </div>
+  </div>
+</div>

@@ -1,14 +1,20 @@
-######################## default configuration ####################
+# Configuration
 baseURL: "https://www.chenfeitech.com/"
 title: "深圳市辰霏软件技术有限公司"
-theme: "bigspring-light"
- # copyright
-copyright: "Copyright © 2024 深圳市辰霏软件技术有限公司 all rights reserved.【 <a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021156154号-1</a> 】"
+theme: "hextra"
 
-# post excerpt
-summaryLength: "15"
+enableRobotsTXT: true
+# Parse Git commit
+enableGitInfo: true
+# enableEmoji: false
+hasCJKLanguage: true
 
-# post pagination
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+enableInlineShortcodes: true
 # Define the number of posts per page
 pagination:
   disableAliases: false
@@ -18,6 +24,22 @@ pagination:
 Permalinks:
     # blog = "/blog/:year/:month/:day/:filename/"
     blog: "/blog/:year/:filename/"
+
+defaultContentLanguage: zh-cn
+languages:
+  zh-cn:
+    languageName: 简体中文
+    languageCode: zh-CN
+    contentDir: content
+    weight: 1
+    title: 深圳市辰霏软件技术有限公司
+    description: "深圳市辰霏软件技术有限公司"
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.134.0"
+
 # unsafe html
 markup:
   highlight:
@@ -32,71 +54,115 @@ markup:
           inline: [['\(', '\)']]
         enable: true
 
-defaultContentLanguage: zh-cn
-languages:
-  zh-cn:
-    languageName: 简体中文
-    languageCode: zh-CN
-    contentDir: "content" # content/english
-    weight: 1
-    title: 深圳市辰霏软件技术有限公司
-        
-# main menu
 menu:
   main:
     - identifier: home
-      name: 首页
-      url: "/"
+      name: "首页"
+      pageRef: /
       weight: 1
-    - identifier: showcases
-      name: "技术和产品"
-      url: "/showcases"
-      weight: 2
     - identifier: blog
       name: "博客"
-      url: "/blog"
+      pageRef: /blog
+      weight: 2
+    - identifier: showcase
+      name: "技术和产品"
+      pageRef: /showcase
       weight: 3
-    - identifier: contact
-      name: "联系我们"
-      url: "contact"
-      weight: 4
-    - identifier: docs
+    - identifier: documentation
       name: "文档"
-      url: "docs"
+      pageRef: /docs
+      weight: 4
+    - identifier: about
+      name: About
+      pageRef: /about
       weight: 5
+    - name: Search
+      weight: 6
+      params:
+        type: search
 
-#################### default parameters ################################
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+
+# Enable and disable widgets for the right sidebar
 params:
-  logo: "imgs/cflogo.png"
-  logo_width: "200px"
+  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  contact_form_ajax: false
+  mainSections: ["blog"]
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    width: normal
+    logo:
+      path: imgs/cflogo.png
+      # dark: images/logo-dark.svg
+      width: 200
+      height: 60
+      # link: /
+    
+  widgets:
+    categories: true
+    tags: true
+    search: true
+    links: true
 
-  # OpenGraph / Twitter Card metadata
-  description: "深圳市辰霏软件技术有限公司"
-  author: "helight"
-  image: "imgs/cflogo.png" # this image will be used as fallback if a page has no image of its own
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
 
-  # contact form action
-  contact_form_action: "#" # contact form works with https://formspree.io
-  qrcode: "imgs/qrcode.jpg"
-  qrcode_width: "150px"
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
 
-  # Type of pages to be rendered with a blog view
-  blogCategoryType: "category"
-
-  # Preloader
-  preloader:
-    enable: false
-    preloader: "" # use jpg, png, svg or gif format.
-
-  # Navigation buttons
-  navigation_button:
+  footer:
     enable: true
-    label: "Get Started"
-    link: "contact"
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+    email: "helight@helight.info"
+    about_us: "<img src=/imgs/site/cf.png>"
+    copyright: "Copyright © 2025 深圳市辰霏软件技术有限公司 all rights reserved.【 <a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021156154号-1</a> 】"
+    sharenotes: "版权声明：本站采用 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0) 进行许可。"
 
-  # cookies
-  cookies:
-    enable: false
-    expire_days: 2
-    content: "This site uses cookies. By continuing to use this website, you agree to their use."
-    button: "接受"
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+    
+    article:
+      displayPagination: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover

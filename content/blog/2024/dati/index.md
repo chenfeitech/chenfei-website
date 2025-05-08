@@ -3,7 +3,7 @@ title: "微信小程序答题系统介绍"
 date: 2024-05-18T08:45:20+08:00
 tags: ["产品服务", "微服务"]
 categories: ["产品服务", "微服务"]
-image: "/blog/2024/dati/imgs/1.jpg"
+banner: "/blog/2024/dati/imgs/1.jpg"
 # post type (regular/featured)
 type: "featured"
 # meta description
