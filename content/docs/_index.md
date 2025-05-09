@@ -25,8 +25,8 @@ title: 介绍
 
   所有文档都在积极撰写和完善中。
   有问题或反馈？欢迎提到这里：
-  1. [github 提交问题](https://github.com/helight/hxblog/issues)
-  2. [gitee 提交问题](https://gitee.com/helight/hxblog/issues)
+  1. [github 提交问题](https://github.com/chenfeitech/)
+  2. [gitee 提交问题](https://gitee.com/chenfeitech/)
 
 ## 下一步
 

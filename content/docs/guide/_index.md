@@ -1,13 +1,13 @@
 ---
 title: 指南
-weight: 2
+weight: 10
 prev: /docs/getting-started
 next: /docs/guide/organize-files
 sidebar:
   open: true
 ---
 
-探索以下部分，了解如何使用 Hextra：
+探索以下部分，了解如何撰写文档
 
 <!--more-->
 
