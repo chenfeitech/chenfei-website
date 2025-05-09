@@ -19,7 +19,6 @@ title: 介绍
 
 ## 主要内容
 
-- **AI 相关的学习** - AI 和大模型学习实践过程记录。
 - **ESP32 相关的学习** - esp32+microPython 的相关学习和实践过程记录。
 
 ## 有问题或反馈？
@@ -34,7 +33,6 @@ title: 介绍
 立即深入以下部分，开始使用：
 
 {{< cards >}}
-  {{< card link="aillm" title="AI和大模型学习实践" icon="document-text" subtitle="AI和大模型学习实践" >}}
   {{< card link="esp32-micropython" title="esp32-microPython实践" icon="document-text" subtitle="esp32-microPython实践" >}}
 {{< /cards >}}
 
