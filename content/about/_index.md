@@ -25,6 +25,10 @@ description: "关于辰霏"
 {{< showcases "技术培训" >}}
 企业大数据架构，云原生微服务架构建设指导和培训。
 {{</ showcases >}}
+
+{{< showcases "嵌入式系统开发" >}}
+开发 esp32 体系的相关应用和培训课程。
+{{</ showcases >}}
 </div>
 <h1 class="hx:w-full hx:text-center hx:p-6"></h1>
 

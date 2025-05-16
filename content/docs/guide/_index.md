@@ -12,5 +12,6 @@ sidebar:
 <!--more-->
 
 {{< cards >}}
+  {{< card link="ziliao" title="esp32 + MicroPython 相关资料" icon="document-duplicate" >}}
   {{< card link="organize-files" title="文件组织" icon="document-duplicate" >}}
 {{< /cards >}}

@@ -2,7 +2,7 @@
 title: esp32-microPython实践
 weight: 2
 prev: /docs/
-next: /docs/esp32-microPython/04oled1306
+next: /docs/esp32_microPython/04oled1306
 sidebar:
   open: true
 ---

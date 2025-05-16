@@ -1,6 +1,6 @@
 ---
 title: 组织文件
-weight: 2
+weight: 3
 prev: /docs/guide
 ---
 

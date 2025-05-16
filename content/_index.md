@@ -30,24 +30,24 @@ layout: hextra-home
 </div>
 {{< hextra/feature-grid style="background-color: #edf6f5 !important; text-align: center;" >}}
   {{< hextra/feature-card
-    title="云原生与微服务架构"
+    title="技术咨询"
     icon="cloud"
-    subtitle="可以指导建设基于 ​Kubernetes 构建混合云管理平台，实现跨云资源统一调度；指导系统微服务治理能力。"
+    subtitle="大数据平台架构设计，基于 ​Kubernetes 构建云原生技术应用落地，内部系统软件架构优化治理等。"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="小程序服务建设"
-    subtitle="具备企业级小程序开发能力，提供各类小程序的开发建设。"
+    title="软件定制"
+    subtitle="具备企业级小程序开发能力，提供各类小程序的开发建设。内部办公系统，小程序，H5，数据平台功能，一般网页程序等"
     icon="code"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="嵌入式系统开发"
-    subtitle="开发 esp32 体系的相关应用和培训课程。"
+    title="企业培训"
+    subtitle="大数据系统，云原生架构（k8s，微服务，DevOps），敏捷开发，开发 esp32 体系的相关应用和培训课程等。"
     icon="device-mobile"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
