@@ -23,7 +23,7 @@ pagination:
 
 Permalinks:
     # blog = "/blog/:year/:month/:day/:filename/"
-    blog: "/blog/:year/:filename/"
+    blog: "/blog/:year/:contentbasename/"
 
 defaultContentLanguage: zh-cn
 languages:
