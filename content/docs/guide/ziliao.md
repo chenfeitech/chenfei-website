@@ -16,3 +16,4 @@ prev: /docs/guide
 4. [https://www.01studio.cc/](https://www.01studio.cc/)
 5. [极客侠GeeksMan:MicroPython 开发 ESP32 教程](https://docs.geeksman.com/esp32/MicroPython/01.esp32-micropython-intro.html)
 6. [在 ESP32 上使用 MQTT](https://www.emqx.com/zh/blog/esp32-connects-to-the-free-public-mqtt-broker)
+7. [ThatProjectn](https://github.com/0015/ThatProjectn)

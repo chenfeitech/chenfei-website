@@ -22,8 +22,8 @@ pagination:
   path: page
 
 Permalinks:
-    # blog = "/blog/:year/:month/:day/:filename/"
-    blog: "/blog/:year/:filename/"
+    # blog = "/blog/:year/:month/:day/:contentbasename/"
+    blog: "/blog/:year/:contentbasename/"
 
 defaultContentLanguage: zh-cn
 languages:
@@ -38,7 +38,7 @@ languages:
 module:
   hugoVersion:
     extended: true
-    min: "0.134.0"
+    min: "0.160.0"
 
 # unsafe html
 markup:
@@ -97,6 +97,10 @@ params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
   contact_form_ajax: false
   mainSections: ["blog"]
+  # Author configuration for RSS feed (use .Site.Params.Author instead of deprecated .Site.Author)
+  author:
+    email: "helight@helight.info"
+    name: "深圳市辰霏软件技术有限公司"
   navbar:
     displayTitle: true
     displayLogo: true
