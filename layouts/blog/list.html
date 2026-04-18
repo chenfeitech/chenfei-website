@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{- $readMore := (T "readMore") | default "Read more →" -}}
   <div class="hoa-page hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
     <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
         <br class="hx:mt-1.5 hx:text-sm" />
@@ -29,7 +30,13 @@
                 </p>
               {{ end -}}
             {{- end -}}
-            <p class="hx:opacity-80 hx:mt-4 hx:leading-7">{{- partial "utils/page-description" . -}}</p>
+            <div class="hx:opacity-80 hx:mt-4 hx:leading-7">
+              {{- if .Truncated -}}
+                {{ .Summary | plainify | htmlUnescape }}
+              {{- else -}}
+                {{ with .Description }}{{ . | plainify | htmlUnescape }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}
+              {{- end -}}
+            </div>
             <p class="hx:opacity-80 hx:mt-1 hx:leading-7">
               <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:underline hx:underline-offset-2 hx:decoration-from-font" href="{{ .RelPermalink }}">
                 {{- $readMore -}}
